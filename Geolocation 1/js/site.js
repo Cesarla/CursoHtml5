@@ -16,14 +16,14 @@ $().ready(function() {
 });
 
 /**
- * Calcula la Geolocalización
+ * Calcula la geolocalización
  */
 function getGeolocation() {
 	return navigator.geolocation.getCurrentPosition(handleGeolocation, handleErrors);
 }
 
 /**
- * Lanza un alert con los datos de la Geolocalización.
+ * Lanza un alert con los datos de la geolocalización.
  * @param {Object} position Objeto contenedor de los resultados de la Geolocalizacion.
  */
 function handleGeolocation(position) {
