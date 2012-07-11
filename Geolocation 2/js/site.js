@@ -25,11 +25,17 @@ $().ready(function() {
 	 * @param {Object} position Objeto contenedor de los resultados de la Geolocalizacion.
 	 */
 	function handleGeolocation(position) {
-		new GMaps({
+		map = new GMaps({
 			div: '#map',
 			lat: position.coords.latitude,
 			lng: position.coords.longitude,
 			height: '500px',
+		});
+		
+		map.addMarker({
+  			lat: position.coords.latitude,
+			lng: position.coords.longitude,
+			title: 'Tu'
 		});
 	} 
 	
