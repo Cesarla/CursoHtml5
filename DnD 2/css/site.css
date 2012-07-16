@@ -1,0 +1,53 @@
+body {
+	background-color: #efefef;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+h1, h2 {
+	color: #82B1D5;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+.content {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+.content .left {
+	float: left;
+	width: 50%;
+}
+
+.content .right {
+	float: right;
+	width: 50%;
+}
+
+#box {
+	background-image: url("../img/box.png");
+	width: 450px;
+	height: 450px;
+	border: 10px solid #EFEFEF;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+span.bold {
+	font-weight: bold;
+}
+
+div.file {
+	border-bottom: 1px dashed #ccc;
+}
+
+div.file:last-child {
+	border-bottom: none;
+}
+
+div.file p {
+	line-height: 0.5em;
+	font-size: 0.8em;
+	font: "SF Collegiate";
+}

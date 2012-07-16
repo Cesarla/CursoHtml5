@@ -13,6 +13,7 @@ URL del Curso: [HTML5 y el futuro de la Web](http://directo.uniovi.es/postgrado/
 ### File API, Drag and Drop ###
 
  - [Drag and Drop 1](https://github.com/Cesarla/CursoHtml5/tree/master/DnD%201)
+ - [Drag and Drop 2](https://github.com/Cesarla/CursoHtml5/tree/master/DnD%202)
 
 ## UTILES ##
 - [Utiles](https://github.com/Cesarla/CursoHtml5/tree/master/Utiles)
