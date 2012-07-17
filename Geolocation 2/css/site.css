@@ -1,0 +1,17 @@
+.container{
+	text-align: center;
+}
+
+h1{
+	margin: 1em 0 1em 0;
+}
+
+#geo{
+	margin-bottom: 1em;
+}
+
+#map{
+	border: 2px dashed #cccccc;
+	border-radius: 5px;
+	height: 500px;
+}
